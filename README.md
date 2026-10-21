@@ -1,6 +1,6 @@
 # Draughtsmen Daily Status Dashboard: Setup and Office Workflow Guide
 
-Survey / Drafting Division. Team: Istiyaque (admin, password protected), Irfan, Ali, Sudheer (users).
+Survey / Drafting Division. Team: Istiyaque (admin, password protected), Irfan, Ali, Sudheer, Adil (users).
 
 **[Open the dashboard](https://claude.ai/artifact/VMHrqzaZvyMs4JuKQkvkp8)** (or <a href="https://claude.ai/artifact/VMHrqzaZvyMs4JuKQkvkp8" target="_blank" rel="noopener noreferrer">open in a new window</a>)
 
@@ -12,7 +12,7 @@ This repository holds documentation only. The dashboard and its data are not sto
 
 ## 1. Roles at a glance
 
-| | Admin (Istiyaque, after entering the password) | Users (Irfan, Ali, Sudheer) |
+| | Admin (Istiyaque, after entering the password) | Users (Irfan, Ali, Sudheer, Adil) |
 |---|---|---|
 | Add new tasks | Yes, for anyone | Yes, for themselves |
 | Edit tasks | Any task | Own tasks only |
@@ -31,12 +31,12 @@ The dashboard badge shows the current role: **Admin: all functions** or **User: 
 1. Open the dashboard link and sign in to Claude.
 2. In the dashboard's share controls, add each person by the email of their Claude account:
    - **Istiyaque:** Editor (or Owner)
-   - **Irfan, Ali, Sudheer:** Contributor
+   - **Irfan, Ali, Sudheer, Adil:** Contributor
    - **Managers or site staff who only need to look:** Viewer
 3. Ask everyone to open the link while signed in.
 4. Check that the badge on the Dashboard reads **Shared database · live**. If it says **Local only**, the person is not signed in or cannot reach the shared database, and their entries will not be shared.
 5. **Istiyaque goes first.** He selects **Istiyaque** under **I am** on the Dashboard. The dashboard asks him to create the admin password (at least 6 characters, entered twice). Choose a long password that is not used elsewhere.
-6. Irfan, Ali and Sudheer each select their own name under **I am** (once per browser).
+6. Irfan, Ali, Sudheer and Adil each select their own name under **I am** (once per browser).
 7. To try the system, Istiyaque clicks **Load sample data**. Sample records are labelled SAMPLE and can be deleted from the Task Register.
 
 Do this in order. Until the password exists, the first Editor or Owner who selects **Istiyaque** gets to create it.
