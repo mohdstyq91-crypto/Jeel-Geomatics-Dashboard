@@ -2,7 +2,11 @@
 
 Survey / Drafting Division. Team: Istiyaque (admin, password protected), Irfan, Ali, Sudheer (users).
 
-Dashboard link: https://claude.ai/artifact/VMHrqzaZvyMs4JuKQkvkp8
+**[Open the dashboard](https://claude.ai/artifact/VMHrqzaZvyMs4JuKQkvkp8)** (or <a href="https://claude.ai/artifact/VMHrqzaZvyMs4JuKQkvkp8" target="_blank" rel="noopener noreferrer">open in a new window</a>)
+
+Tip: if the link opens in the same tab, Ctrl+click (Windows) or Cmd+click (Mac) opens it in a new tab.
+
+**Quick start:** sign in to Claude, open the link, check the badge says "Shared database · live", pick your name under "I am", then add or update your tasks. If you get an access error, ask the supervisor to share the dashboard with your account.
 
 This repository holds documentation only. The dashboard and its data are not stored here.
 
