@@ -56,9 +56,10 @@ Do not copy the dashboard's HTML file to GitHub Pages or another website. A copy
 1. Open the dashboard and check that your name is selected under **I am**.
 2. Click **+ Add New Task** for new work, or **Edit** on one of your tasks.
 3. Enter the Input Data Received Date when the site team supplies data. Leave it blank to show *Awaiting Site Data*.
-4. Update Processing Status (%). Status becomes Pending at 0% and In Progress from 1% to 99%.
-5. Choose **Incomplete** if the work is blocked (missing data, corrections needed) and write the reason in Remarks.
-6. When the work is finished and checked, set Overall Status to **Completed** (needs 100%).
+4. Enter the **Input Data Path** (where the site data is saved) and the **Output Data Path** (where the finished drawings or files are saved). Both are optional text fields.
+5. Update Processing Status (%). Status becomes Pending at 0% and In Progress from 1% to 99%.
+6. Choose **Incomplete** if the work is blocked (missing data, corrections needed) and write the reason in Remarks.
+7. When the work is finished and checked, set Overall Status to **Completed** (needs 100%).
 
 If you need a task deleted or copied, ask Istiyaque.
 
@@ -85,6 +86,8 @@ If you need a task deleted or copied, ask Istiyaque.
 - **Overdue** appears as a separate red badge when the deadline has passed and the task is not completed.
 - Warnings are shown for: overdue tasks, due today, due within 2 days, awaiting site data, and no update for 3 or more days.
 - Every record shows **by [name]** under Last Updated.
+- **Input Data Path** and **Output Data Path** columns sit between Last Updated and Actions. They are plain text, not clickable links, because a web page cannot open folders on a computer or network drive. Copy the path and paste it into File Explorer. Use paths your whole team can reach, such as a shared network folder, rather than a personal drive.
+- The paths are included in searches and in Excel, CSV and PDF exports, and they stay with a task when it is copied or transferred.
 - Exports on **Export / Print** use the filters currently set and include the generation date. The browser asks you to confirm each file save.
 
 ## 8. Backup and recovery
@@ -92,7 +95,7 @@ If you need a task deleted or copied, ask Istiyaque.
 - Istiyaque downloads a JSON backup from **Settings & Backup** at least weekly, and before any bulk change.
 - To recover, Istiyaque uses **Restore from file**. This replaces all current records with the backup.
 - Deleting a record asks for confirmation and cannot be undone, except from a backup.
-- This repository is public. Do not commit backups or exports that contain real project data.
+- This repository is public. Do not commit backups or exports that contain real project data, and do not put real server or folder paths in this file.
 
 ## 9. Known limitations
 
@@ -117,4 +120,5 @@ If you need a task deleted or copied, ask Istiyaque.
 | "Wrong password" | Try again. If the password is lost, see section 3 |
 | "Admin needs Editor or Owner access" | The owner must change Istiyaque's access in the share controls |
 | "Could not save to the shared database" | You have Viewer access. Ask the owner for Contributor access |
+| Path will not open when clicked | Paths are plain text. Copy the path and paste it into File Explorer |
 | Export does nothing | Accept the save prompt, and check the filters are not hiding all records |
