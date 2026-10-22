@@ -1,8 +1,7 @@
-# Draughtsmen Daily Status Dashboard:(Login Version)
+# Draughtsmen Daily Status Dashboard: (Login Version)
 
 Survey / Drafting Division. Admin: Istiyaque. Users: Irfan, Ali, Sudheer, Adil.
 
-Click on Link to sign in
+Click on link to sign in
 
-**link:** https://claude.ai/artifact/Kune9G8TrCZMhWwNhBGLex
-
+**Link:** <https://claude.ai/artifact/Kune9G8TrCZMhWwNhBGLex>
